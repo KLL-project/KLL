@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="title desc">
+  <title id="title">Home loan documents</title><desc id="desc">A home finance document folder with a house and approval check.</desc>
+  <rect width="320" height="180" rx="16" fill="#f3f6fa"/><circle cx="252" cy="40" r="22" fill="#fff1e8"/>
+  <path d="M77 49h121l19 20v80H77z" fill="#fff" stroke="#cdd7e3" stroke-width="4"/><path d="M198 49v22h19" fill="none" stroke="#cdd7e3" stroke-width="4"/>
+  <path d="M100 91h85m-85 18h76m-76 18h56" stroke="#7c8da3" stroke-width="5" stroke-linecap="round"/>
+  <path d="m120 76 20-17 20 17v18h-40z" fill="#fff1e8" stroke="#f36c2b" stroke-width="4"/><path d="M134 94V81h13v13" fill="none" stroke="#f36c2b" stroke-width="3"/>
+  <circle cx="222" cy="124" r="27" fill="#f36c2b"/><path d="m209 124 9 9 17-19" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

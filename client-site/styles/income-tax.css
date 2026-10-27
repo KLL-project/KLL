@@ -1,0 +1,116 @@
+.income-tax-page{--tax-orange:#f2682a;--tax-navy:#071d3c;--tax-ink:#111d34;--tax-muted:#536078;--tax-line:#e8ebf0;color:var(--tax-ink);padding-bottom:0}
+.income-tax-page svg{display:block;width:25px;height:25px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.income-tax-hero{width:min(1440px,100%);min-height:360px;margin:0 auto;display:grid;grid-template-columns:minmax(390px,.92fr) minmax(560px,1.08fr);background:#f5f7fa;overflow:hidden}
+.income-tax-hero-copy{align-self:center;padding:34px 24px 44px max(36px,calc((100vw - 1320px)/2));position:relative;z-index:1}
+.income-tax-eyebrow{font-size:12px;font-weight:800;color:var(--tax-orange);margin:0 0 8px;text-transform:uppercase;letter-spacing:.03em}
+.income-tax-hero h1{font-size:clamp(32px,3.2vw,46px);line-height:1.08;letter-spacing:-.035em;margin:0 0 12px;color:var(--tax-navy)}
+.income-tax-hero h1 em{font-style:normal;color:var(--tax-orange)}
+.income-tax-lead{max-width:480px;color:#253149;font-size:15px;line-height:1.62;margin-bottom:20px}
+.income-tax-promises{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px;margin:18px 0 22px}
+.income-tax-promises>div{display:flex;align-items:center;gap:7px;min-width:0;color:var(--tax-orange)}
+.income-tax-promises svg{flex:0 0 23px;width:23px;height:23px}
+.income-tax-promises span{font-size:10px;line-height:1.25;font-weight:700;color:var(--tax-ink)}
+.income-tax-actions{display:flex;gap:12px;flex-wrap:wrap}
+.income-tax-actions .button{gap:9px;min-height:43px;padding:11px 16px;font-size:12px}
+.income-tax-actions .button svg,.income-tax-cta-actions .button svg{width:18px;height:18px}
+.income-tax-actions .button.outline{background:rgba(255,255,255,.9);color:var(--tax-ink)}
+.income-tax-visual{position:relative;min-height:360px;display:grid;align-items:stretch;justify-items:end;background:#eee8e3}
+.income-tax-visual>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:43% center}
+.income-tax-visual:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(255,255,255,.06),transparent 38%,rgba(6,20,40,.08));pointer-events:none}
+.income-tax-hero-form{position:relative;z-index:1;align-self:center;width:min(300px,42%);margin:18px 4.5% 18px 0;padding:20px 19px 16px;border:1px solid rgba(228,232,238,.9);border-radius:11px;background:rgba(255,255,255,.97);box-shadow:0 14px 38px rgba(8,25,53,.15)}
+.income-tax-hero-form h2{font-size:18px;line-height:1.25;color:var(--tax-ink);margin:0 0 3px}
+.income-tax-hero-form>p{font-size:11px;color:var(--tax-muted);margin:0 0 12px}
+.income-tax-hero-form form>label{display:grid;gap:4px;margin:0 0 8px;font-size:10px;font-weight:700;color:#27344b}
+.income-tax-hero-form input,.income-tax-hero-form select{height:34px;padding:7px 9px;font-size:11px;border-color:#dfe4ec;border-radius:5px}
+.income-tax-form-status{min-height:0;margin:0;color:#13733c;font-size:10px;line-height:1.35}
+.income-tax-form-status:not(:empty){margin:2px 0 7px}
+.income-tax-form-status.is-error{color:#b42318}
+.income-tax-hero-form .button{width:100%;height:36px;padding:8px 10px;font-size:11px;gap:7px}
+.income-tax-hero-form .button span{font-size:16px;line-height:1}
+.income-tax-form-assurance{display:flex;justify-content:space-between;gap:8px;margin-top:10px;color:#168346;font-size:9px;font-weight:700;white-space:nowrap}
+.income-tax-form-assurance span:last-child{color:#334055}
+.income-tax-highlights{position:relative;z-index:2;width:min(1360px,calc(100% - 64px));margin:-20px auto 0;padding:18px 14px;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));border:1px solid #edf0f4;border-radius:12px;background:#fff;box-shadow:0 7px 20px rgba(8,25,53,.08)}
+.income-tax-highlights>div{display:flex;align-items:center;justify-content:center;gap:10px;padding:3px 11px;border-right:1px solid var(--tax-line);min-width:0}
+.income-tax-highlights>div:last-child{border-right:0}
+.income-tax-highlights svg{width:28px;height:28px;flex:0 0 28px;color:var(--tax-orange)}
+.income-tax-highlights span{display:grid;gap:1px;line-height:1.25}
+.income-tax-highlights strong{font-size:11px;white-space:nowrap}
+.income-tax-highlights small{font-size:10px;color:var(--tax-muted)}
+.income-tax-section,.income-tax-feature-pair,.income-tax-proof-grid,.income-tax-cta{width:min(1360px,calc(100% - 64px));margin-left:auto;margin-right:auto}
+.income-tax-section{padding:28px 0 20px}
+.income-tax-heading{margin:0 0 16px}
+.income-tax-heading h2,.income-tax-proof-grid h2{font-size:19px;line-height:1.25;margin:0;color:var(--tax-navy)}
+.income-tax-heading.centered{text-align:center}
+.income-tax-service-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px}
+.income-tax-service-card{min-height:176px;padding:15px 12px 13px;border:1px solid var(--tax-line);border-radius:9px;background:#fff;box-shadow:0 4px 13px rgba(8,25,53,.045);display:flex;flex-direction:column;align-items:center;text-align:center}
+.income-tax-icon{display:grid;place-items:center;width:49px;height:49px;color:var(--tax-orange);margin-bottom:8px}
+.income-tax-icon svg{width:42px;height:42px;stroke-width:1.55}
+.income-tax-service-card h3{font-size:13px;line-height:1.28;min-height:32px;margin:0 0 5px;color:var(--tax-ink)}
+.income-tax-service-card p{font-size:10px;line-height:1.45;color:var(--tax-muted);margin:0 0 9px;flex:1}
+.income-tax-service-card>a{font-size:10px;font-weight:700;color:var(--tax-orange)}
+.income-tax-feature-pair{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:0}
+.income-tax-benefits,.income-tax-documents{min-height:206px;border-radius:10px;overflow:hidden;position:relative}
+.income-tax-benefits{background:var(--tax-navy);color:#fff}
+.income-tax-benefits>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:.43}
+.income-tax-benefits-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,25,52,.97) 0%,rgba(5,25,52,.9) 53%,rgba(5,25,52,.2) 100%)}
+.income-tax-benefits-copy{position:relative;z-index:1;padding:19px 22px;max-width:74%}
+.income-tax-benefits h2,.income-tax-documents h2{font-size:17px;line-height:1.25;margin:0 0 11px}
+.income-tax-benefits ul,.income-tax-documents ul{list-style:none;padding:0;margin:0;display:grid;gap:7px}
+.income-tax-benefits li,.income-tax-documents li{display:flex;align-items:center;gap:8px;font-size:10px;line-height:1.3}
+.income-tax-benefits li svg{width:15px;height:15px;flex:0 0 15px;color:#ff7a27;background:#fff;border-radius:50%;padding:2px;stroke-width:2.4}
+.income-tax-documents{background:#fff3e9;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;padding:18px 20px}
+.income-tax-documents>div{position:relative;z-index:1}
+.income-tax-documents h2{color:var(--tax-navy)}
+.income-tax-documents li{gap:8px;font-weight:700;color:#26334b}
+.income-tax-documents li svg{width:15px;height:15px;flex:0 0 15px;color:var(--tax-orange)}
+.income-tax-documents>img{width:100%;height:165px;object-fit:cover;object-position:center;border-radius:8px;mix-blend-mode:multiply}
+.income-tax-process-section{padding:21px 0 24px}
+.income-tax-process-section .income-tax-heading{margin-bottom:17px}
+.income-tax-process{list-style:none;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:15px;padding:0;margin:0}
+.income-tax-process li{position:relative;text-align:center;padding:0 10px}
+.income-tax-process li:not(:last-child):after{content:"";position:absolute;top:31px;left:calc(50% + 42px);width:calc(100% - 58px);border-top:1px dashed #f1b38f}
+.income-tax-process-icon{width:58px;height:58px;display:grid;place-items:center;margin:0 auto 5px;border:1px solid #f0d6c8;border-radius:50%;background:#fff;color:var(--tax-orange)}
+.income-tax-process-icon svg{width:30px;height:30px;stroke-width:1.6}
+.income-tax-process li>b{position:absolute;top:50px;left:calc(50% - 37px);width:16px;height:16px;border-radius:50%;display:grid;place-items:center;background:var(--tax-orange);color:#fff;font-size:9px}
+.income-tax-process h3{font-size:11px;line-height:1.25;margin:9px 0 3px;color:var(--tax-ink)}
+.income-tax-process p{font-size:10px;line-height:1.4;color:var(--tax-muted);margin:0 auto;max-width:160px}
+.income-tax-proof-grid{display:grid;grid-template-columns:.92fr 1.2fr 1fr;gap:12px;margin-top:1px}
+.income-tax-proof-grid>article{min-width:0;padding:14px;border:1px solid var(--tax-line);border-radius:10px;background:#fff;box-shadow:0 4px 14px rgba(8,25,53,.04)}
+.income-tax-proof-grid h2{font-size:14px;margin:0 0 12px}
+.income-tax-trust-items{display:grid;grid-template-columns:1fr 1fr;gap:15px 11px}
+.income-tax-trust-items>div{display:flex;align-items:center;gap:8px}
+.income-tax-trust-items svg{width:28px;height:28px;flex:0 0 28px;color:var(--tax-orange)}
+.income-tax-trust-items span{display:grid;line-height:1.3}
+.income-tax-trust-items b{font-size:12px}
+.income-tax-trust-items small{font-size:9px;color:var(--tax-muted)}
+.income-tax-review-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.income-tax-review-grid>article{min-width:0;padding:9px;border:1px solid #edf0f4;border-radius:8px}
+.income-tax-stars{color:var(--tax-orange);font-size:12px;letter-spacing:1px;line-height:1}
+.income-tax-review-grid p{min-height:49px;margin:7px 0;font-size:9px;line-height:1.4;color:#48556b}
+.income-tax-review-person{display:flex;align-items:center;gap:7px}
+.income-tax-review-person img{width:28px;height:28px;object-fit:cover;border-radius:50%}
+.income-tax-review-person span{display:grid;line-height:1.25}
+.income-tax-review-person b{font-size:9px}
+.income-tax-review-person small{font-size:8px;color:var(--tax-muted)}
+.income-tax-faq-heading{display:flex;justify-content:space-between;align-items:start;gap:7px}
+.income-tax-faq-heading a{font-size:8px;white-space:nowrap;font-weight:700;color:var(--tax-ink)}
+.income-tax-faq-list{display:grid;gap:5px}
+.income-tax-faq-list details{border:1px solid #e8ebf0;border-radius:6px;background:#fff;padding:8px 10px}
+.income-tax-faq-list summary{font-size:9px;line-height:1.3;font-weight:700;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:8px}
+.income-tax-faq-list summary::-webkit-details-marker{display:none}
+.income-tax-faq-list summary:after{content:"⌄";font-size:14px;line-height:10px;color:var(--tax-ink);transition:transform .15s ease}
+.income-tax-faq-list details[open] summary:after{transform:rotate(180deg)}
+.income-tax-faq-list p{margin:8px 0 0;font-size:10px;color:var(--tax-muted);line-height:1.45}
+.income-tax-cta{margin-top:16px;margin-bottom:0;min-height:88px;display:grid;grid-template-columns:115px 1fr auto;align-items:center;gap:18px;padding:11px 24px;border-radius:10px;background:linear-gradient(105deg,#f05a16,#ff6811);color:#fff;overflow:hidden}
+.income-tax-cta-art{height:70px;align-self:end;overflow:hidden;border-radius:8px 8px 0 0}
+.income-tax-cta-art img{width:100%;height:100%;object-fit:cover;object-position:50% 39%;mix-blend-mode:screen}
+.income-tax-cta h2{font-size:19px;line-height:1.2;margin:0 0 3px}
+.income-tax-cta p{font-size:12px;margin:0}
+.income-tax-cta-actions{display:flex;gap:10px;flex-wrap:wrap}
+.income-tax-cta-actions .button{display:inline-flex;gap:7px;min-height:38px;padding:9px 12px;font-size:10px;box-shadow:none}
+.income-tax-cta-actions .button.outline{border:0;background:#fff;color:var(--tax-navy)}
+.income-tax-cta-actions .button.white{color:var(--tax-navy)}
+.income-tax-cta-actions .button.white svg{color:#18aa5b}
+@media(max-width:1100px){.income-tax-hero{grid-template-columns:minmax(350px,.9fr) minmax(440px,1.1fr)}.income-tax-hero-copy{padding-left:32px}.income-tax-hero-form{width:min(285px,48%);margin-right:3%}.income-tax-highlights,.income-tax-section,.income-tax-feature-pair,.income-tax-proof-grid,.income-tax-cta{width:calc(100% - 40px)}.income-tax-highlights>div{padding-left:6px;padding-right:6px;gap:6px}.income-tax-highlights strong{font-size:10px}.income-tax-service-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.income-tax-service-card{min-height:155px}.income-tax-proof-grid{grid-template-columns:1fr 1.25fr}.income-tax-faq{grid-column:1/-1}.income-tax-faq-list{grid-template-columns:1fr 1fr}}
+@media(max-width:720px){.income-tax-hero{grid-template-columns:1fr;min-height:auto}.income-tax-hero-copy{padding:36px 20px 22px}.income-tax-hero h1{font-size:34px}.income-tax-lead{font-size:14px;margin-bottom:14px}.income-tax-promises{gap:6px;margin:15px 0}.income-tax-promises>div{gap:4px}.income-tax-promises span{font-size:9px}.income-tax-actions .button{flex:1 1 170px}.income-tax-visual{min-height:440px;justify-items:stretch;align-items:end}.income-tax-visual>img{object-position:42% center}.income-tax-visual:after{background:linear-gradient(0deg,rgba(5,22,43,.2),transparent 75%)}.income-tax-hero-form{align-self:end;width:min(390px,calc(100% - 32px));margin:0 auto 16px;padding:17px}.income-tax-hero-form h2{font-size:17px}.income-tax-highlights{width:calc(100% - 28px);margin-top:-7px;padding:11px;grid-template-columns:repeat(2,minmax(0,1fr));gap:0}.income-tax-highlights>div{justify-content:flex-start;padding:10px;border-right:0;border-bottom:1px solid var(--tax-line)}.income-tax-highlights>div:nth-last-child(-n+2){border-bottom:0}.income-tax-section,.income-tax-feature-pair,.income-tax-proof-grid,.income-tax-cta{width:calc(100% - 28px)}.income-tax-section{padding:25px 0 18px}.income-tax-heading h2{font-size:18px}.income-tax-service-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.income-tax-service-card{min-height:168px;padding:13px 10px}.income-tax-feature-pair{grid-template-columns:1fr;gap:10px}.income-tax-benefits,.income-tax-documents{min-height:210px}.income-tax-benefits-copy{max-width:85%;padding:18px}.income-tax-documents{grid-template-columns:1.15fr .85fr;padding:17px}.income-tax-documents>img{height:155px}.income-tax-process{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 8px}.income-tax-process li:nth-child(2n):after,.income-tax-process li:last-child:after{display:none}.income-tax-process li:not(:last-child):after{left:calc(50% + 40px);width:calc(100% - 45px)}.income-tax-process li:nth-child(2n+1):after{border-top-style:dotted}.income-tax-process-section{padding:20px 0}.income-tax-proof-grid{grid-template-columns:1fr}.income-tax-proof-grid>article{padding:15px}.income-tax-faq{grid-column:auto}.income-tax-review-grid p{min-height:0;font-size:10px}.income-tax-review-grid b{font-size:10px}.income-tax-faq-list{grid-template-columns:1fr}.income-tax-faq-list summary{font-size:11px;padding:1px 0}.income-tax-faq-list p{font-size:11px}.income-tax-cta{grid-template-columns:74px 1fr;gap:8px 13px;padding:13px 15px}.income-tax-cta-art{height:64px;grid-row:1/3}.income-tax-cta h2{font-size:17px}.income-tax-cta p{font-size:11px}.income-tax-cta-actions{grid-column:1/-1}.income-tax-cta-actions .button{flex:1 1 150px}.income-tax-page+.site-footer{margin-top:34px}}
+@media(max-width:420px){.income-tax-hero h1{font-size:31px}.income-tax-visual{min-height:410px}.income-tax-promises svg{width:20px;height:20px;flex-basis:20px}.income-tax-promises span{font-size:8px}.income-tax-service-card h3{font-size:12px}.income-tax-service-card p{font-size:9px}.income-tax-documents{grid-template-columns:1fr .75fr;padding:14px}.income-tax-documents h2{font-size:15px}.income-tax-documents li{font-size:9px}.income-tax-documents>img{height:130px}.income-tax-review-grid{grid-template-columns:1fr}.income-tax-review-grid>article{display:grid;grid-template-columns:1fr auto;column-gap:8px;align-items:center}.income-tax-review-grid .income-tax-stars{grid-column:1/-1}.income-tax-review-grid p{grid-column:1/-1}.income-tax-review-person{grid-column:1/-1}}

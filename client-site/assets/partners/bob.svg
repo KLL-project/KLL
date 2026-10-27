@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 72" role="img" aria-label="Bank of Baroda">
+ <path d="M10 39c8-19 20-28 36-28s29 9 37 28c-8-8-19-12-37-12S18 31 10 39Z" fill="#f36f21"/>
+ <path d="M10 40c8 17 20 26 36 26s29-9 37-26c-8 8-19 12-37 12S18 48 10 40Z" fill="#ea1d2b"/>
+ <circle cx="46" cy="39" r="9" fill="#fff"/>
+ <text x="94" y="43" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#e44c2a">Bank of Baroda</text>
+ <text x="96" y="59" font-family="Arial, sans-serif" font-size="9" font-weight="600" fill="#566477">India’s International Bank</text>
+</svg>

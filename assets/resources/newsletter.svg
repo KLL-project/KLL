@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 170" role="img" aria-labelledby="title desc">
+  <title id="title">Newsletter and financial guides</title><desc id="desc">An envelope holding a guide sheet with an orange shield and checkmark.</desc>
+  <rect x="42" y="22" width="156" height="116" rx="10" fill="#fff" opacity=".95" transform="rotate(-7 42 22)"/>
+  <path d="M79 51h83m-83 17h69m-69 17h57" stroke="#9aa8ba" stroke-width="6" stroke-linecap="round"/>
+  <path d="M51 78h150q9 0 9 9v57q0 9-9 9H51q-9 0-9-9V87q0-9 9-9z" fill="#fff"/>
+  <path d="m45 87 81 57 80-57" fill="none" stroke="#f36c2b" stroke-width="8" stroke-linejoin="round"/>
+  <path d="m224 26 31 12v30q0 31-31 46-31-15-31-46V38z" fill="#092248"/><path d="m210 64 10 10 19-22" fill="none" stroke="#ff7a32" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="238" cy="135" r="18" fill="#fff" opacity=".2"/><path d="m231 135 5 5 10-12" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Enquiry Management | KLL Financial &amp; Marketing Services</title>
+    <link rel="stylesheet" href="styles/admin.css" />
+  </head>
+  <body class="admin-body auth-required">
+    <aside class="admin-sidebar" aria-label="Admin navigation">
+      <a class="admin-brand" href="index.html"><span class="brand-mark">K</span><span>KLL<small>Financial &amp; Marketing</small></span></a>
+      <p class="sidebar-label">WORKSPACE</p>
+      <a class="nav-item active" href="admin.html" aria-current="page"><span aria-hidden="true">▤</span> Enquiries</a>
+      <div class="sidebar-footer"><span class="avatar">AD</span><span>Admin demo<small>Preview workspace</small></span></div>
+    </aside>
+
+    <main class="admin-main">
+      <header class="admin-topbar"><div><span class="breadcrumb">Workspace</span><span class="crumb-divider">/</span><strong>Enquiries</strong></div><div class="topbar-actions"><a class="view-site" href="index.html">View website <span aria-hidden="true">↗</span></a><button class="logout-button" id="logout-button" type="button">Sign out</button></div></header>
+      <section class="page-heading"><div><p class="eyebrow">CUSTOMER FOLLOW-UP</p><h1>Enquiry management</h1><p class="intro">Review incoming requests and keep every follow-up moving.</p></div><span class="demo-badge"><span></span> Demo data</span></section>
+
+      <section class="stats" aria-label="Enquiry summary">
+        <article class="stat-card"><span>Total enquiries</span><strong id="stat-total">—</strong><small>All requests</small><span class="stat-icon navy">▤</span></article>
+        <article class="stat-card"><span>New</span><strong id="stat-new">—</strong><small>Ready for follow-up</small><span class="stat-icon orange">✳</span></article>
+        <article class="stat-card"><span>In progress</span><strong id="stat-progress">—</strong><small>Being followed up</small><span class="stat-icon blue">◷</span></article>
+        <article class="stat-card"><span>Closed</span><strong id="stat-closed">—</strong><small>Completed requests</small><span class="stat-icon green">✓</span></article>
+      </section>
+
+      <section class="inbox-card" aria-labelledby="inbox-title">
+        <div class="inbox-heading"><div><h2 id="inbox-title">All enquiries</h2><p>Search requests and update their follow-up status.</p></div><button class="export-button" id="export-button" type="button"><span aria-hidden="true">↓</span> Export CSV</button></div>
+        <div class="toolbar"><label class="search-box"><span aria-hidden="true">⌕</span><input id="search-input" type="search" placeholder="Search name, email or phone" aria-label="Search enquiries"></label><label class="filter-label"><span class="sr-only">Filter by service</span><select id="service-filter"><option value="">All services</option></select></label><label class="filter-label"><span class="sr-only">Filter by status</span><select id="status-filter"><option value="">All statuses</option><option>New</option><option>Contacted</option><option>In progress</option><option>Closed</option></select></label></div>
+        <div class="table-wrap"><table><thead><tr><th>CONTACT</th><th>SERVICE</th><th>RECEIVED</th><th>STATUS</th><th><span class="sr-only">Open enquiry</span></th></tr></thead><tbody id="enquiry-rows"></tbody></table><div class="empty-state" id="empty-state" hidden><span>⌕</span><strong>No enquiries found</strong><p>Try changing your search or filters.</p></div></div>
+        <footer class="table-footer"><span id="result-count"></span><span>Sample records shown for preview</span></footer>
+      </section>
+      <p class="admin-note"><span aria-hidden="true">ⓘ</span> This local sample stores enquiries in data/enquiries.json. Apply production security controls before handling real customer information.</p>
+    </main>
+
+    <dialog class="detail-dialog" id="detail-dialog" aria-labelledby="detail-name">
+      <form method="dialog" class="dialog-top"><span class="eyebrow">ENQUIRY DETAILS</span><button class="close-button" aria-label="Close details">×</button></form>
+      <div class="detail-content"><div class="detail-title"><div><h2 id="detail-name"></h2><span id="detail-service" class="service-chip"></span></div><span id="detail-status" class="status-pill"></span></div>
+        <div class="detail-contact"><a id="detail-phone"></a><a id="detail-email"></a></div>
+        <section class="message-block"><h3>Customer message</h3><p id="detail-message"></p></section>
+        <label class="status-edit">Follow-up status<select id="detail-status-select"><option>New</option><option>Contacted</option><option>In progress</option><option>Closed</option></select></label>
+        <label class="notes-edit">Staff notes<textarea id="detail-notes" rows="4" placeholder="Add a follow-up note..."></textarea></label>
+        <div class="dialog-actions"><span id="save-feedback" aria-live="polite"></span><button id="save-detail" class="primary-button" type="button">Save changes</button></div>
+      </div>
+    </dialog>
+    <script type="module" src="scripts/admin-auth.js"></script>
+    <script type="module" src="scripts/admin.js"></script>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+.contact-page{--contact-orange:#f2692b;--contact-orange-dark:#e75416;--contact-navy:#0b1a35;--contact-ink:#27354a;--contact-muted:#627086;--contact-border:#e9edf2;color:var(--contact-ink);padding-bottom:0}
+.contact-shell{width:min(1180px,calc(100% - 40px));margin-right:auto;margin-left:auto}
+.route-contact .site-header{box-shadow:0 3px 14px rgba(12,26,53,.07)}
+.route-contact .site-header nav a[href="#/contact"]{color:var(--contact-orange)}
+.contact-page svg{width:26px;height:26px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.contact-hero-grid{display:grid;grid-template-columns:minmax(0,.48fr) minmax(0,.52fr);min-height:313px;background:#f5f7fa;overflow:hidden}
+.contact-hero-copy{width:min(100%,590px);margin-left:max(20px,calc((100vw - 1180px)/2));padding:31px 30px 27px 0;align-self:center}
+.contact-eyebrow{margin:0 0 8px;color:var(--contact-orange);font-size:10px;font-weight:800;letter-spacing:.025em}
+.contact-hero h1{margin:0 0 14px;color:var(--contact-navy);font-size:clamp(30px,3.3vw,43px);line-height:1.13;letter-spacing:-.035em}
+.contact-hero h1 em{color:var(--contact-orange);font-style:normal}
+.contact-hero-description{max-width:440px;margin:0;color:#303b4d;font-size:12px;line-height:1.7}
+.contact-promises{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:21px}
+.contact-promises>div{display:flex;align-items:center;gap:7px;color:#18263a}
+.contact-promises svg{width:25px;height:25px;flex:none;color:var(--contact-orange)}
+.contact-promises span{font-size:9px;font-weight:700;line-height:1.35}
+.contact-hero-image{display:block;width:100%;height:100%;min-height:313px;max-height:355px;object-fit:cover;object-position:center}
+.contact-info-grid{position:relative;z-index:1;width:min(1180px,calc(100% - 40px));min-height:110px;margin:-1px auto 0;padding:12px 8px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));background:#fff;border:1px solid #eff1f4;border-radius:10px;box-shadow:0 6px 20px rgba(12,26,53,.08)}
+.contact-info-card{min-width:0;padding:8px 17px;display:flex;align-items:center;gap:13px;border-right:1px solid #edf0f4;color:var(--contact-ink)}
+.contact-info-card:last-child{border-right:0}
+.contact-info-card>svg{width:30px;height:30px;flex:none;color:var(--contact-orange)}
+.contact-info-card:nth-child(2)>svg{color:#1da85c}
+.contact-info-card span{min-width:0;display:grid;gap:3px}
+.contact-info-card strong{font-size:10px;color:#28364a}
+.contact-info-card b{font-size:11px;color:#0e1d35;overflow-wrap:anywhere}
+.contact-info-card small{font-size:9px;color:#68758a}
+.contact-message-location{margin-top:10px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px}
+.contact-panel{min-width:0;padding:17px;border:1px solid var(--contact-border);border-radius:10px;background:#fff;box-shadow:0 4px 14px rgba(12,26,53,.055)}
+.contact-panel h2{margin:0 0 5px;color:var(--contact-navy);font-size:17px;line-height:1.3}
+.contact-panel-intro{margin:0 0 13px;color:#566276;font-size:10px}
+.contact-form{display:grid;gap:9px}
+.contact-form-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.contact-form label{min-width:0;display:block}
+.contact-form input,.contact-form select,.contact-form textarea{width:100%;min-height:38px;padding:9px 12px;border:1px solid #e3e7ed;border-radius:6px;background:#fff;color:var(--contact-ink);font:inherit;font-size:10px;outline-color:#f2a17c}
+.contact-form input::placeholder,.contact-form textarea::placeholder{color:#768196;opacity:1}
+.contact-form select:invalid{color:#768196}
+.contact-form textarea{min-height:79px;resize:vertical}
+.contact-form .form-status{min-height:0;margin:0;font-size:11px}
+.contact-form .form-status:not(:empty){min-height:16px}
+.contact-submit{width:min(100%,280px);min-height:36px;padding:8px 14px;justify-content:space-between;background:linear-gradient(100deg,#f25714,#ff721e);font-size:11px}
+.contact-submit span{font-size:14px}
+.contact-privacy{margin:1px 0 0;display:flex;align-items:center;gap:6px;color:#344258;font-size:9px}
+.contact-privacy svg{width:15px;height:15px;color:var(--contact-orange)}
+.contact-map{position:relative;min-height:286px;margin-top:10px;overflow:hidden;border-radius:7px;background:#e9eef0}
+.contact-map iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.contact-map-card{position:absolute;right:7%;top:50%;width:min(265px,58%);padding:13px 15px;transform:translateY(-50%);border:1px solid #edf0f3;border-radius:8px;background:rgba(255,255,255,.96);box-shadow:0 4px 16px rgba(12,26,53,.12);pointer-events:none}
+.contact-map-card strong{color:var(--contact-navy);font-size:10px;line-height:1.4}
+.contact-map-card p{margin:5px 0;color:#38465b;font-size:9px;line-height:1.55}
+.contact-map-card a{display:inline-block;color:var(--contact-orange-dark);font-size:9px;font-weight:700;pointer-events:auto}
+.contact-offices{margin-top:18px}
+.contact-offices>h2,.contact-benefits>h2{margin:0 0 12px;text-align:center;color:var(--contact-navy);font-size:18px;line-height:1.3}
+.contact-office-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px}
+.contact-office-card{min-height:128px;padding:13px 14px;display:flex;align-items:flex-start;gap:10px;border:1px solid var(--contact-border);border-radius:8px;background:#fff;box-shadow:0 3px 11px rgba(12,26,53,.035)}
+.contact-office-card>svg{width:20px;height:20px;flex:none;color:var(--contact-orange)}
+.contact-office-card h3{margin:1px 0 7px;color:var(--contact-navy);font-size:10px;line-height:1.35}
+.contact-office-card p{margin:0 0 7px;color:#465267;font-size:9px;line-height:1.45}
+.contact-office-card a{display:inline-flex;align-items:center;gap:5px;color:#18263a;font-size:9px;font-weight:700}
+.contact-office-card a svg{width:13px;height:13px;color:var(--contact-orange)}
+.contact-benefits{margin-top:19px}
+.contact-benefits>h2{margin-bottom:14px}
+.contact-benefit-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0}
+.contact-benefit-card{min-height:72px;padding:8px 19px;display:flex;align-items:center;gap:12px;border-right:1px solid #e6e9ed}
+.contact-benefit-card:last-child{border-right:0}
+.contact-benefit-card>svg{width:32px;height:32px;flex:none;color:var(--contact-orange)}
+.contact-benefit-card h3{margin:0 0 4px;color:var(--contact-navy);font-size:10px}
+.contact-benefit-card p{margin:0;color:#49566a;font-size:9px;line-height:1.45}
+.contact-cta{position:relative;min-height:99px;margin-top:17px;padding:17px 28px;display:grid;grid-template-columns:145px minmax(0,1fr) auto;align-items:center;gap:15px;overflow:hidden;border-radius:9px;background:linear-gradient(105deg,#f15c1a,#ff7822);color:#fff}
+.contact-cta-illustration{width:100%;height:68px;display:flex;align-items:center;justify-content:center}
+.contact-cta-illustration svg{width:64px;height:64px;stroke:#fff;stroke-width:1.25}
+.contact-cta-copy h2{margin:0 0 3px;color:#fff;font-size:17px}
+.contact-cta-copy p{margin:0;font-size:10px;line-height:1.5}
+.contact-cta-actions{display:flex;gap:10px}
+.contact-cta-actions a{min-height:37px;padding:0 13px;display:inline-flex;align-items:center;justify-content:center;gap:7px;border:1px solid rgba(255,255,255,.65);border-radius:6px;background:#fff;color:var(--contact-navy);font-size:9px;font-weight:700;white-space:nowrap;transition:transform .18s}
+.contact-cta-actions a:hover{transform:translateY(-2px)}
+.contact-cta-actions a svg{width:16px;height:16px;color:var(--contact-orange)}
+.contact-whatsapp-mark{padding:2px 3px;border:1px solid #1da85c;border-radius:4px;color:#138b49;font-size:7px}
+.contact-page+.site-footer{margin-top:22px}
+@media(min-width:1500px){.contact-hero-grid{grid-template-columns:minmax(0,.48fr) minmax(0,.52fr)}.contact-hero-copy{margin-left:max(40px,calc((100vw - 1180px)/2))}}
+@media(max-width:1000px){.contact-hero-grid{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);min-height:290px}.contact-hero-copy{padding-right:18px}.contact-hero-image{min-height:290px}.contact-info-card{padding:8px 10px;gap:8px}.contact-info-card>svg{width:25px;height:25px}.contact-info-card b{font-size:10px}.contact-cta{grid-template-columns:90px minmax(0,1fr) auto;padding:15px}.contact-cta-actions{gap:6px}.contact-cta-actions a{padding:0 9px}}
+@media(max-width:720px){.contact-shell,.contact-info-grid{width:calc(100% - 30px)}.contact-hero-grid{grid-template-columns:1fr;min-height:0}.contact-hero-copy{width:calc(100% - 30px);margin:0 auto;padding:27px 0 22px}.contact-hero h1{font-size:34px}.contact-hero-description{font-size:12px}.contact-promises{margin-top:17px;gap:7px}.contact-promises>div{gap:5px}.contact-promises svg{width:23px;height:23px}.contact-promises span{font-size:8px}.contact-hero-image{min-height:0;max-height:none;height:auto;aspect-ratio:1.7;object-position:center 53%}.contact-info-grid{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:-9px;padding:7px}.contact-info-card{min-height:72px;padding:8px;border-right:0;border-bottom:1px solid #edf0f4}.contact-info-card:nth-child(odd){border-right:1px solid #edf0f4}.contact-info-card:nth-last-child(-n+2){border-bottom:0}.contact-info-card>svg{width:25px;height:25px}.contact-info-card strong{font-size:9px}.contact-info-card b{font-size:10px}.contact-info-card small{font-size:8px}.contact-message-location{margin-top:13px;grid-template-columns:1fr;gap:11px}.contact-panel{padding:15px}.contact-map{min-height:250px}.contact-map-card{right:5%;width:min(280px,70%)}.contact-offices{margin-top:19px}.contact-office-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.contact-office-card{min-height:120px;padding:11px 9px;gap:7px}.contact-office-card h3{font-size:9px}.contact-office-card p{font-size:8px}.contact-benefits{margin-top:20px}.contact-benefit-grid{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:5px}.contact-benefit-card{min-height:72px;padding:8px 10px;border-right:0}.contact-benefit-card:nth-child(odd){border-right:1px solid #e6e9ed}.contact-benefit-card>svg{width:27px;height:27px}.contact-benefit-card h3{font-size:9px}.contact-benefit-card p{font-size:8px}.contact-cta{margin-top:16px;padding:18px;grid-template-columns:58px minmax(0,1fr);gap:11px}.contact-cta-illustration{height:54px}.contact-cta-illustration svg{width:48px;height:48px}.contact-cta-copy h2{font-size:16px}.contact-cta-actions{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr}.contact-cta-actions a{min-height:38px;padding:0 7px;font-size:9px}.contact-page+.site-footer{margin-top:18px}}
+@media(max-width:430px){.contact-hero h1{font-size:30px}.contact-promises{gap:3px}.contact-promises span{font-size:7px}.contact-promises svg{width:20px;height:20px}.contact-info-card{gap:6px;padding:7px 5px}.contact-info-card>svg{width:22px;height:22px}.contact-form-row{grid-template-columns:1fr;gap:9px}.contact-form input,.contact-form select{min-height:40px}.contact-office-grid{grid-template-columns:1fr}.contact-office-card{min-height:0}.contact-office-card p{font-size:9px}.contact-benefit-card{padding:8px 6px;gap:7px}.contact-benefit-card>svg{width:23px;height:23px}.contact-benefit-card h3{font-size:8px}.contact-benefit-card p{font-size:8px}.contact-cta{grid-template-columns:44px minmax(0,1fr);padding:15px}.contact-cta-illustration svg{width:38px;height:38px}}

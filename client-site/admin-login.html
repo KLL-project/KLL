@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Admin Sign In | KLL Financial &amp; Marketing Services</title>
+    <link rel="stylesheet" href="styles/admin.css" />
+  </head>
+  <body class="login-body">
+    <main class="login-card">
+      <a class="admin-brand login-brand" href="index.html"><span class="brand-mark">K</span><span>KLL<small>Financial &amp; Marketing</small></span></a>
+      <p class="eyebrow">ADMIN WORKSPACE</p>
+      <h1>Sign in</h1>
+      <p class="login-intro">Enter the preview account details to open enquiry management.</p>
+      <form id="login-form" class="login-form">
+        <label>Email address<input id="login-email" type="email" autocomplete="username" value="admin@kllfm.com" required></label>
+        <label>Password<input id="login-password" type="password" autocomplete="current-password" value="KLLdemo2026!" required></label>
+        <p class="login-error" id="login-error" role="alert"></p>
+        <button class="primary-button login-button" type="submit">Sign in to admin</button>
+      </form>
+      <div class="demo-credentials"><strong>Demo sign-in</strong><span>Email: admin@kllfm.com</span><span>Password: KLLdemo2026!</span></div>
+      <p class="login-disclaimer">Sample local account. Use production authentication and HTTPS before public deployment.</p>
+      <a class="login-back" href="index.html">← Back to website</a>
+    </main>
+    <script type="module" src="scripts/admin-auth.js"></script>
+  </body>
+</html>

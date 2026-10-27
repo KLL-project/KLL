@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 72" role="img" aria-label="IDFC FIRST Bank">
+ <rect x="7" y="10" width="49" height="52" rx="4" fill="#9b1b43"/>
+ <path d="M18 47h27M18 36h21M18 25h15" stroke="#fff" stroke-width="7" stroke-linecap="square"/>
+ <text x="67" y="39" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#4b2238">IDFC FIRST</text>
+ <text x="69" y="58" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#4b2238">BANK</text>
+</svg>
